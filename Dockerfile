@@ -1,3 +1,3 @@
 FROM blang/latex:ubuntu
-RUN apt install texlive-lang-european
+RUN apt install texlive texlive-lang-european
 ENTRYPOINT [ "pdflatex" ]
