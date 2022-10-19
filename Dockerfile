@@ -1,2 +1,2 @@
-FROM ubuntu:bionic
+FROM blang/latex:ubuntu
 ENTRYPOINT [ "pdflatex" ]
