@@ -1,5 +1,5 @@
 name: "Build book"
-description: "Build with Pandoc"
+description: "Build with pdflatex"
 runs:
   using: 'docker'
   image: 'Dockerfile'
